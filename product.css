@@ -412,7 +412,7 @@ color: #fff;
 .quantity:focus{
     background-color: #e4ad8ce6;
 }
-    @media(max-width:700px){
+    @media(max-width:800px){
               .product_popup_image {
     width: 80%;
     margin-left: 10%;
@@ -420,7 +420,7 @@ color: #fff;
 }
             .popup_size{
     margin-left: 2%;
-    padding-top: 3px;
+    padding-top: 0px;
     font-size: clap(1rem, 1vw, 2rem);
             }
 .product_popup h2{
@@ -428,7 +428,7 @@ color: #fff;
     margin-left: 2%;
     padding-top: 10px;
     font-size: clap(1rem, 1vw, 2rem)
-    padding-bottom: 1%;
+    padding-bottom: 0.2%;
     white-space: nowrap;  /* 1. Forces all text onto a single line */
      /* 2. Hides the text that spills out of the container */
   text-overflow: ellipsis;
