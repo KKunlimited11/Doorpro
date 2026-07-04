@@ -431,6 +431,7 @@ color: #fff;
 .popup_type{
 margin-left: 2%;
 font-size: clap(1rem, 1vw, 4rem);
+  margin-buttom:-2%;
 }
 .product_popup .popup_price{
     color: #faf9f9;
