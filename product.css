@@ -413,7 +413,7 @@ color: #fff;
     background-color: #e4ad8ce6;
 }
     @media(max-width:700px){
-              .product_popup_image img{
+              .product_popup_image {
     width: 80%;
     margin-left: 10%;
       height:42vh ;
