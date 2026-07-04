@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>our products</title>
+    <link rel="icon" type="image/png" href="file_00000000b98c7243bdcdd9055bb47b72.png">
     <link rel="stylesheet" href="product.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="">
@@ -25,7 +26,7 @@
              </ul>
             </nav>
             <nav>
-                <ul>
+                <ul class="navv" >
                <li> <a href="#">DoorPro</a></li>
                <li> <a  href="index.html#home">Home</a></li>
                <li><a href="index.html#products">Products</a></li>
@@ -33,8 +34,21 @@
                <li>  <a href="index.html#feature">Feature</a></li>
                <li> <a href="index.html#contact-section">Contact</a></li>     
             <li><button onclick=getquote() class="nav_button"> Get a quote </button></li>
-            <li onclick=showsidebar()><a href="#"> <img src="menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+            <li onclick=showsidebar()><img src="menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li>
              </ul>
+                <style>
+                    @media (max-width: 650px;){
+                    .navv a{
+                        display: none;
+                    }
+                        .navv button{
+                            display:none
+                        }
+                        .navv li img{ width:60px;
+                                     height: 60px;
+                                    }
+                    }
+                </style>
 <script>
                 let sidebar =document.querySelector(".side-bar");
                 let quotationForm = document.getElementById("quotationForm");
@@ -100,7 +114,18 @@
     </div>
     <div class="result">
     </div>
- 
+ <style>
+     @media (max-width:760px){
+     .search-container{
+         width:80%;
+         padding-lef:5px;
+     }
+     }
+
+     .door_container{
+         gap:5px;
+     }
+ </style>
 
     <div class="door_container">
         <div class="door_cards">
